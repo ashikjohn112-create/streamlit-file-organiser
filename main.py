@@ -31,6 +31,20 @@ def SortingDocuments(path):
 
 
 def main():
+    st.set_page_config(page_title="File Sorter", page_icon="🗂️", layout="centered")
+
+    # Sidebar content
+    st.sidebar.title("📘 Instructions")
+    st.sidebar.markdown("""
+        1. Paste the full folder path (e.g. `C:/Users/ashikjohn/Downloads`)
+        2. Click **Continue** to start organising
+        3. Then choose if you want further document sorting
+        """)
+    st.sidebar.markdown("---")
+
+
+    st.title("📂Personal File Organiser")
+    st.markdown("Organise your messy folders in seconds — clean, fast, and local.")
     st.title("📂Personal File Organiser")
 
     file_path = st.text_input("Enter Your File Path")
