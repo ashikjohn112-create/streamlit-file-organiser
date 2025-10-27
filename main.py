@@ -52,8 +52,8 @@ def main():
     #First Stage Sorting
     if button:
         main_dir = file_path
-        rep_dir1 = Path(main_dir + "/Downloaded images")
-        rep_dir2 = Path(main_dir + "/Downloaded documents")
+        rep_dir1 = main_dir / "Downloaded images"
+        rep_dir2 = main_dir / "Downloaded documents"
         rep_dir1.mkdir(exist_ok=True)
         rep_dir2.mkdir(exist_ok=True)
 
