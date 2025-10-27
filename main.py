@@ -36,7 +36,7 @@ def main():
     # Sidebar content
     st.sidebar.title("📘 Instructions")
     st.sidebar.markdown("""
-        1. Paste the full folder path (e.g. `C:/Users/ashikjohn/Downloads`)
+        1. Paste the full folder path (e.g. `C:/Users/xxxx/Downloads`)
         2. Click **Continue** to start organising
         3. Then choose if you want further document sorting
         """)
