@@ -44,8 +44,7 @@ def main():
 
 
     st.title("📂Personal File Organiser")
-    st.markdown("Organise your messy folders in seconds — clean, fast, and local.")
-    st.title("📂Personal File Organiser")
+    
 
     file_path = st.text_input("Enter Your File Path")
     button = st.button("Continue")
